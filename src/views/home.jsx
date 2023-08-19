@@ -1,10 +1,12 @@
 import { useState, useCallback } from 'react'
+import { Link } from 'react-router-dom';
 import reactLogo from '../assets/react.svg'
-import viteLogo from '/vite.svg'
 import '../styles/home.css'
 // import { Modal } from 'bootstrap'
 import Modal from '../components/modal.jsx'
 import ParticlesBackground from '../components/particlesBackground.jsx'
+import AnimatedButton from '../components/animatedButton.jsx'
+import React, { Fragment } from 'https://cdn.skypack.dev/react'
 
 export default function home(){
     const [count, setCount] = useState(0)
@@ -28,7 +30,7 @@ export default function home(){
           {/* <a href="https://vitejs.dev" target="_blank">
             <img src={viteLogo} className="logo" alt="Vite logo" />
           </a> */}
-          <a href="https://reactjs.org" target="_blank">
+          <a href="https://github.com/Jeammy/WebCV" target="_blank">
             <img src={reactLogo} className="logo react" alt="React logo" />
           </a>
         </div>
@@ -47,11 +49,14 @@ export default function home(){
           </button>
           { setModal() }
         </div> */}
-        <div className='welcome-button'>
+        <Fragment>
+          <AnimatedButton role="button" >Enter</AnimatedButton>
+        </Fragment>
+        {/* <div className='welcome-button'>
           <button>
-            Enter
+            <Link to="/about">Enter</Link>
           </button>
-        </div>
+        </div> */}
       </div>
     )
   }
