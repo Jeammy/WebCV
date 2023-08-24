@@ -28,6 +28,10 @@ This project is a personal web-based curriculum vitae (CV) showcasing my skills,
    ```
 3. Run the command :
    ```
+   npm init
+   ```
+   and then
+   ```
    npm run dev
    ```
    

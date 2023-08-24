@@ -27,6 +27,10 @@ Ce projet est un curriculum vitae (CV) personnel basé sur le web, mettant en av
    cd cv-web
    ```
 3. Lancer la commande:
+    ```
+   npm init
+   ```
+   et ensuite
    ```
    npm run dev
    ```
