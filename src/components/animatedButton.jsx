@@ -1,7 +1,7 @@
 // From : https://codepen.io/jh3y/pen/XWMobqx
 // import React, { Fragment } from 'https://cdn.skypack.dev/react'
 // import { render } from 'https://cdn.skypack.dev/react-dom'
-import styles from '../styles/animatedButton.module.css'
+// import styles from '../styles/animatedButton.module.css'
 
 
 // const ROOT_NODE = document.querySelector('#app')
